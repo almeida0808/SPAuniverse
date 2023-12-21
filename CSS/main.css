@@ -1,0 +1,143 @@
+*{
+    margin: 00;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*IMAGENS BG*/
+    --bg-image: url(/images/bg-home.png);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+nav{
+    width: max-content;
+
+    display: flex;
+    gap:53px;
+    align-items: center;
+    padding: 40px 719px 40px 72px;
+
+}
+
+nav a{
+    font-size: 21px;
+text-decoration: none;
+color:rgba(196, 196, 204, 0.7);
+}
+
+nav a:hover{
+color:rgba(196, 196, 204, 1);
+    
+}
+
+/*home*/
+#home {
+    display: grid;
+place-content: center;
+height: 70vh;
+font-family: 'Roboto', sans-serif;
+}
+
+#home h1{
+    font-size: 48px;
+    font-weight: 700; 
+    color: white;
+}
+#home button{
+    padding: 12px 32px;
+    background: none;
+
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+width: 195px;
+
+font-weight: bold;
+transition: 0.2s;
+}
+
+#home button:hover{
+    border-radius: 5px;
+border: 2px solid #FFF;
+background: #FFF;
+color: rgba(2, 121, 157, 1);
+cursor: pointer;
+}
+#saberMais{
+    display: flex;
+    justify-content:  center;
+    padding-top: 24px;
+    
+}
+
+#saberMais a{
+    color: white;
+    text-decoration: none;
+}
+
+/*UNIVERSE*/
+#universe{
+    font-family: 'Roboto', sans-serif;
+color: #FFF;
+
+padding-top:63px ;
+padding-left: 102px;
+}
+#universe h1{
+    font-size: 48px;
+    font-weight: 700;
+padding-bottom: 16px;
+}
+
+#universe p{
+    font-size: 18px;
+line-height: 160%; 
+width: 648px;
+color:rgba(196, 196, 204, 0.7);
+
+}
+
+/*explorer*/
+#explorer{
+    font-family: 'Roboto', sans-serif;
+color: #FFF;
+
+padding-top:63px ;
+padding-left: 102px;
+}
+#explorer h1{
+    font-size: 48px;
+    font-weight: 700;
+padding-bottom: 16px;
+}
+
+#explorer p{
+    font-size: 18px;
+line-height: 160%; 
+width: 648px;
+color:rgba(196, 196, 204, 0.7);
+}
+
+/*ERROR*/
+#error{
+    text-align: center;
+    padding-top: 4rem;
+
+    color: #FFF;
+    font-weight: bold;
+}
+
+#error i{
+    font-size: 400px;
+
+}
+
+#error h1{
+    font-size: 90px;
+}
+
+#error h3{
+    font-size: 27px;
+}
+

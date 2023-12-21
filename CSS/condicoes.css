@@ -1,0 +1,18 @@
+body.universe{
+    background: url(/images/bg-universe.png) no-repeat ;
+    background-size: cover;
+
+}
+
+body.explorer{
+    background: url(/images/bg-explorer.png) no-repeat fixed;
+    background-size: cover;
+
+}
+
+body.home{
+    background: url(/images/bg-home.png) no-repeat fixed;
+
+    background-size: cover;
+
+}
